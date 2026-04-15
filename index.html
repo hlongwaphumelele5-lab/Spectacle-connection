@@ -7,51 +7,54 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Spectacle Connection</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#hours">Hours</a></li>
-            </ul>
-        </nav>
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Welcome to Spectacle Connection</h1>
+        <p>Your vision, our mission.</p>
+        <a href="#appointment" class="btn">Book an Appointment</a>
     </header>
-    <main>
-        <section id="home">
-            <h2>Welcome to Spectacle Connection</h2>
-            <p>Your one-stop shop for all your optical needs.</p>
-        </section>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Located in the heart of Cape Town, we offer a wide variety of eyewear, contact lenses, and personalized services to cater to your optical needs.</p>
-        </section>
-        <section id="services">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Eye Exams</li>
-                <li>Prescription Glasses</li>
-                <li>Contact Lens Fitting</li>
-                <li>Frame Repairs</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Address: SHOP 10 BP RETAIL CENTRE CAPE TOWN 7708</p>
-            <p>Phone: <a href="tel:0784812762">078 481 2762</a></p>
-        </section>
-        <section id="hours">
-            <h2>Business Hours</h2>
-            <p>Monday - Friday: 9 AM - 6 PM</p>
-            <p>Saturday: 10 AM - 4 PM</p>
-            <p>Sunday: Closed</p>
-        </section>
-    </main>
+
+    <!-- Existing Features Section -->
+    <section id="features">
+        <h2>Our Features</h2>
+        <p>Description of existing features goes here...</p>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <blockquote>
+            <p>"Best service ever! Highly recommend." - Jane Doe</p>
+        </blockquote>
+        <blockquote>
+            <p>"They really care about your vision!" - John Smith</p>
+        </blockquote>
+    </section>
+
+    <!-- Appointment Booking Form Section -->
+    <section id="appointment">
+        <h2>Book Your Appointment</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Improved Structure Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, please <a href="mailto:info@spectacleconnection.com">email us</a>.</p>
+    </section>
+
     <footer>
         <p>&copy; 2026 Spectacle Connection. All Rights Reserved.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
